@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" monitorInterval="30">
+
+    <Properties>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %-5level %logger{36} - [%X{traceId}]- %msg%n
+        </Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <LevelRangeFilter minLevel="ERROR" maxLevel="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+        <File name="infoLog" fileName="logs/${env:APP_NAME}.log"
+              filePattern="logs/%d{yyyy-MM-dd}-${env:APP_NAME}-%i.log">
+            <LevelRangeFilter minLevel="ERROR" maxLevel="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </File>
+        <RollingFile name="errorLog" fileName="logs/${env:APP_NAME}-error.log"
+                     filePattern="logs/%d{yyyy-MM-dd}-${env:APP_NAME}-error-%i.log">
+            <LevelRangeFilter minLevel="ERROR" maxLevel="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+    </Appenders>
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="errorLog"/>
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="infoLog"/>
+        </Root>
+        <Logger name="org.hibernate" additivity="false">
+            <AppenderRef ref="errorLog"/>
+        </Logger>
+
+        <Logger name="io.lettuce" additivity="false">
+            <AppenderRef ref="errorLog"/>
+        </Logger>
+        <!--        org.jobrunr-->
+
+        <Logger name="org.jobrunr" additivity="false">
+            <AppenderRef ref="errorLog"/>
+        </Logger>
+        <Logger name="org.springframework" additivity="false">
+            <AppenderRef ref="errorLog"/>
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Logger name="com.zaxxer" additivity="false">
+            <AppenderRef ref="errorLog"/>
+        </Logger>
+        <Logger name="vn.com.cardoctor" additivity="false">
+            <AppenderRef ref="infoLog"/>
+            <AppenderRef ref="errorLog"/>
+            <AppenderRef ref="Console"/>
+
+        </Logger>
+    </Loggers>
+</Configuration>

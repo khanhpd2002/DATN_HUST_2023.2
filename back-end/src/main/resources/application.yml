@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: garage-service
+  cloud:
+    config:
+      uri: ${CONFIG_SERVER}
+  config:
+    import: "optional:configserver:"
