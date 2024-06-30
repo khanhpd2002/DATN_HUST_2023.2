@@ -1,0 +1,168 @@
+{
+	"moduleName": "Phiếu dịch vụ",
+	"order": {
+		"title": "Danh sách đơn hàng đặt",
+		"newOrder": "Tạo mới đơn hàng",
+		"titleDetail": "Chi tiết đơn hàng",
+		"detail": "Chi tiết đơn hàng bán",
+		"filter": {
+			"code": "Mã đơn hàng",
+			"customerGroup": "Nhóm khách hàng",
+			"customerName": "Tên khách hàng",
+			"from": "Từ ngày",
+			"to": "Đến ngày",
+			"time": "Thời gian",
+			"paymentStatus": "Trạng thái thanh toán",
+			"paymentDate": "Ngày thanh toán",
+			"searchCode": "Tìm kiếm phiếu dịch vụ",
+			"placeHolder": "Nhập mã phiếu dịch vụ, tên khách hàng, số điện thoại"
+		},
+		"table": {
+			"index": "STT",
+			"orderCode": "Mã đơn hàng",
+			"customerName": "Tên khách hàng",
+			"createdAt": "Ngày",
+			"totalPrice": "Tổng tiền",
+			"paymentStatus": "Trạng thái thanh toán"
+		},
+		"paymentStatus": {
+			"1": "Chưa thanh toán",
+			"2": "Đã đặt cọc",
+			"3": "Đã thanh toán",
+			"4": "Đã hoàn tiền",
+			"5": "Quá hạn"
+		},
+		"modal": {
+			"editTitle": "Cập nhật trạng thái thanh toán",
+			"distributorId": "Mã nhà phân phối",
+			"distributorName": "Nhà phân phối",
+			"phoneNumber": "Số điện thoại",
+			"deliverMethod": "Phương thức giao hàng",
+			"paymentStatus": "Trạng thái thanh toán",
+			"printBill": "In hóa đơn"
+		},
+		"edit": "Chỉnh sửa",
+		"view": "Chi tiết",
+		"extractExcel": "Xuất File Excel",
+		"find": "Tìm kiếm"
+	},
+	"serviceTicket": {
+		"moduleName": "Phiếu dịch vụ",
+		"table": {
+			"index": "STT",
+			"orderCode": "Mã phiếu dịch vụ",
+			"customerName": "Tên khách hàng",
+			"createdAt": "Ngày",
+			"totalPrice": "Tổng tiền",
+			"paymentStatus": "Trạng thái thanh toán"
+		},
+		"filter": {
+			"code": "Mã đơn hàng",
+			"customerGroup": "Nhóm khách hàng",
+			"customerName": "Tên khách hàng",
+			"from": "Từ",
+			"to": "Đến",
+			"time": "Thời gian",
+			"paymentStatus": "Trạng thái thanh toán",
+			"paymentDate": "Ngày thanh toán"
+		},
+		"extractExcel": "Xuất File Excel",
+		"find": "Tìm kiếm",
+		"form": {
+			"paymentStatus": "Trạng thái thanh toán",
+			"create": "Thêm mới phiếu dịch vụ",
+			"edit": "Chỉnh sửa phiếu dịch vụ",
+			"detail": "Chi tiết phiếu dịch vụ",
+			"phone": "SĐT",
+			"customerType": "Nhóm khách hàng",
+			"customerName": "Tên khách hàng",
+			"licensePlate": "Biển số xe",
+			"vinNumber": "Số vin",
+			"journey": "Số km hiện tại",
+			"carBrand": "Hãng xe",
+			"carModel": "Dòng xe",
+			"carYear": "Đời xe",
+			"carVersion": "Phiên bản xe",
+			"requirement": "Khách hàng yêu cầu",
+			"service": {
+				"title": "Danh mục dịch vụ",
+				"serviceTypeId": "Công việc",
+				"quantity": "SL",
+				"price": "Đơn giá",
+				"money": "Thành tiền",
+				"discount": "Chiết khấu",
+				"tax": "Thuế",
+				"total": "Tổng tiền",
+				"assignee": "Người thực hiện",
+				"addServiceRowData": "+ Thêm mới công việc",
+				"serviceId": "Loại dịch vụ"
+			},
+			"product": {
+				"title": "Danh sách phụ tùng",
+				"name": "Vật tư phụ tùng",
+				"unit": "ĐVT",
+				"quantity": "SL",
+				"price": "Đơn giá",
+				"money": "Thành tiền",
+				"discount": "Chiết khấu",
+				"tax": "Thuế",
+				"total": "Tổng tiền",
+				"addProductRowData": "+ Thêm mới vật tư"
+			},
+			"toast": {
+				"createSuccess": "Tạo mới thành công",
+				"createfailse": "Tạo mới thất bại",
+				"updateSuccess": "Cập nhật thành công",
+				"updateFailse": "Cập nhật thất bại",
+				"updateSellOrder": "Cập nhật đơn đặt thành công"
+			},
+			"cash": {
+				"totalMoney": "Tổng tiền",
+				"intoMoney": "Thành tiền",
+				"totalTax": "Tổng tiền thuế",
+				"totalDiscount": "Tổng tiền chiết khấu"
+			}
+		},
+		"paymentStatus": {
+			"0": "Mới",
+			"1": "Chưa thanh toán",
+			"2": "Đã đặt cọc",
+			"3": "Đã thanh toán",
+			"4": "Đã hoàn tiền",
+			"5": "Quá hạn"
+		},
+		"print": "In phiếu",
+		"action": {
+			"back": "Quay lại",
+			"confirm": "Xác nhận"
+		}
+	},
+	"orderDistributorController": {
+		"filter": {
+			"orderCode": "Mã đơn hàng",
+			"distributorId": "Mã NPP",
+			"distributorName": "Tên NPP",
+			"paymentStatus": "Trạng thái thanh toán",
+			"fromDate": "Từ",
+			"toDate": "Đến",
+			"time": "Thời gian"
+		},
+		"table": {
+			"index": "STT",
+			"orderCode": "Mã đơn hàng",
+			"distributorName": "Tên NPP",
+			"createdAt": "Ngày",
+			"totalPrice": "Tổng tiền",
+			"paymentStatus": "Trạng thái thanh toán"
+		},
+		"form": {
+			"editTitle": "Chỉnh sửa danh sách đơn hàng đặt",
+			"viewTitle": "Chi tiết đơn hàng đặt",
+			"distributorId": "Mã NPP",
+			"distributorName": "Tên NPP",
+			"phoneNumber": "Số điện thoại",
+			"deliveryType": "Phương thức giao hàng",
+			"paymentStatus": "Trạng thái thanh toán"
+		}
+	}
+}

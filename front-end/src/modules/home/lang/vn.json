@@ -1,0 +1,61 @@
+{
+	"filterConfig": {
+		"code": "Mã dịch vụ",
+		"name": "Tên dịch vụ"
+	},
+	"find": "Tìm kiếm",
+	"create": "Thêm mới",
+	"table": {
+		"stt": "STT",
+		"garageServiceType": "Loại dịch vụ",
+		"code": "Mã dịch vụ",
+		"name": "Tên dịch vụ",
+		"description": "Mô tả"
+	},
+	"form": {
+		"createServiceTitle": "Thêm mới dịch vụ",
+		"editServiceTitle": "Chỉnh sửa dịch vụ",
+		"garageServiceType": "Loại dịch vụ",
+		"name": "Tên dịch vụ",
+		"code": "Mã dịch vụ",
+		"description": "Mô tả",
+		"requiredFieldError": "* Vui lòng nhập đủ thông tin bắt buộc"
+	},
+	"toast": {
+		"createSuccess": "Thêm mới thành công",
+		"editSuccess": "Cập nhật thành công"
+	},
+	"error": {
+		"missingRequiredField": "* Vui lòng nhập đủ thông tin bắt buộc",
+		"duplicateCode": "* Mã dịch vụ đã tồn tại, vui lòng nhập lại"
+	},
+	"service": {
+		"title": "Dịch vụ thịnh hành",
+		"bestSaller": "Top sản phẩm bán chạy",
+		"excellentStaffs": "Nhân viên xuất sắc tháng",
+		"popularService": "Dịch vụ phổ biến",
+		"quotation": "Báo giá",
+		"total": "Tổng số lượt dịch vụ",
+		"noData": "Không có dữ liệu",
+		"viewMore": "Xem Thêm",
+		"titleRevenue": "Doanh thu",
+		"orderOutput": "Sản lượng đặt hàng NPP",
+		"lowInventory": "Sản phẩm tồn kho thấp",
+		"longStock": "Hàng tồn kho lâu",
+		"returnProduct": "Hàng đổi trả nhiều",
+		"valueInventory": "Giá trị tồn kho",
+		"spareCode": "Số mã phụ tùng",
+		"quantitySpare": "Số lượng phụ tùng",
+		"undeliveredOrder": "Số đơn chưa giao",
+		"accessary": "Phụ tùng",
+		"dateAdd": "Ngày nhập",
+		"table": {
+			"productId": "Mã phụ tùng",
+			"productName": "Tên phụ tùng",
+			"sale": "Đã bán"
+		},
+		"filter": {
+			"title": "Lọc theo"
+		}
+	}
+}

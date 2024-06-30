@@ -1,0 +1,65 @@
+{
+	"title": "Danh sách nhân sự",
+	"filter": {
+		"fullName": "Tên nhân sự"
+	},
+	"table": {
+		"stt": "STT",
+		"fullName": "Tên nhân sự",
+		"gender": "Giới tính",
+		"birthday": "Ngày sinh",
+		"phoneNumber": "Số điện thoại",
+		"type": "Công việc",
+		"status": "Trạng thái",
+		"contractType": "Loại nhân sự",
+		"startDate": "Ngày bắt đầu",
+		"endDate": "Ngày kết thúc",
+		"action": "Thao tác"
+	},
+	"form": {
+		"addTitle": "Thêm mới nhân sự",
+		"editTitle": "Chỉnh sửa thông tin nhân sự",
+		"viewTitle": "Chi tiết nhân sự",
+		"fullName": "Họ và tên",
+		"gender": "Giới tính",
+		"birthday": "Ngày sinh",
+		"phoneNumber": "Số điện thoại",
+		"type": "Công việc",
+		"status": "Trạng thái",
+		"contractType": "Loại nhân sự",
+		"startDate": "Ngày bắt đầu",
+		"endDate": "Ngày kết thúc"
+	},
+	"toast": {
+		"createSuccess": "Thêm mới nhân sự thành công",
+		"editSuccess": "Chỉnh sửa nhân sự thành công"
+	},
+	"action": {
+		"filter": "Tìm kiếm",
+		"add": "Thêm mới nhân sự",
+		"save": "Tạo mới",
+		"edit": "Lưu thay đổi",
+		"back": "Quay lại",
+		"cancel": "Huỷ bỏ"
+	},
+	"status": {
+		"0": "Đang làm việc",
+		"1": "Đã nghỉ việc",
+		"2": "Tạm nghỉ"
+	},
+	"contractType": {
+		"1": "Nhân sự chính thức",
+		"2": "Nhân sự thuê ngoài"
+	},
+	"gender": {
+		"0": "Nam",
+		"1": "Nữ",
+		"2": "Chưa xác định"
+	},
+	"error": {
+		"missingRequiredField": "* Vui lòng nhập đủ thông tin bắt buộc",
+		"errorBirthDay": "* Vui lòng Chọn Ngày sinh nhỏ hơn Ngày hiện tại",
+		"errorStartDate": "* Vui lòng Chọn Ngày bắt đầu lớn hơn Ngày sinh",
+		"errorEndDate": "* Vui lòng Chọn Ngày kết thúc lớn hơn Ngày bắt đầu"
+	}
+}

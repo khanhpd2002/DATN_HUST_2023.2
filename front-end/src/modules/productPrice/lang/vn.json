@@ -1,0 +1,41 @@
+{
+    "title": "Quản lý giá bán",
+    "product": "Phụ tùng",
+    "service": "Dịch vụ",
+    "id": "ID",
+    "order": "STT",
+    "code": "Mã giá",
+    "productType": "Loại sản phẩm",
+    "customerGroup": "Nhóm khách hàng",
+    "productCode": "Mã sản phẩm",
+    "productName": "Tên sản phẩm",
+    "price": "Giá bán",
+    "list": "Danh sách giá bán",
+    "create": "Thêm mới giá bán",
+    "edit": "Cập nhật giá bán",
+    "filter":"Tìm kiếm",
+    "action": {
+        "save": "Cập nhật",
+        "back": "Quay lại"
+    },
+    "table": {
+        "stt": "STT",
+        "customerGroup":"Nhóm khách hàng",
+        "productType":"Loại sản phẩm",
+        "productCode":"Mã sản phẩm",
+        "productName":"Tên sản phẩm",
+        "price":"Giá bán"
+    },
+    "form": {
+        "title": "Cập nhật giá bán",
+        "customerGroup":"Nhóm khách hàng",
+        "productType":"Loại sản phẩm",
+        "productCode":"Mã sản phẩm",
+        "productName":"Tên sản phẩm",
+        "price":"Giá bán"
+    },
+    "productTypeOptions":{
+        "1":"Phụ tùng",
+        "2":"Dịch vụ"
+    }
+}

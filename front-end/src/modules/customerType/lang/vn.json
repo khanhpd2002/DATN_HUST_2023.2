@@ -1,0 +1,41 @@
+{
+    "title": "Danh sách nhóm khách hàng",
+    "id": "ID",
+    "stt": "STT",
+    "customerTypeName": "Nhóm khách hàng",
+    "description": "Mô tả",
+    "action": {
+        "action": "Hành động",
+        "search": "Tìm kiếm",
+        "view": "Chi tiết",
+        "add": "Thêm mới",
+        "edit": "Chỉnh sửa",
+        "delete": "Xoá",
+        "save": "Lưu",
+        "back": "Quay lại"
+    },
+    "create": "Tạo mới thông tin nhóm khách hàng",
+    "edit": "Chỉnh sửa thông tin nhóm khách hàng",
+    "view": "Chi tiết thông tin nhóm khách hàng",
+    "success": {
+        "create": "Thêm mới thành công",
+        "edit": "Cập nhật thành công"
+    },
+    "failed": {
+        "create": "Thêm mới thất bại",
+        "edit": "Cập nhật thất bại"
+    },
+    "placeholder": {
+        "code": "Mã NPP",
+        "name": "Tên NPP",
+        "ward": "Xã/phường",
+        "province": "Tỉnh/TP",
+        "district": "Quận/huyện",
+        "address": "Nhập địa chỉ",
+        "contactName": "Người liên hệ",
+        "contactPhone": "SĐT liên hệ"
+    },
+    "errorMessages": {
+        "phone": "Số điện thoại không hợp lệ!"
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "moduleName": "Lệnh sửa chữa",
+    "filter": {
+        "customerType": "Nhóm khách hàng",
+        "customerName": "Tên khách hàng",
+        "phone": "Số điện thoại",
+        "carBrand": "Hãng xe",
+        "carModel": "Dòng xe",
+        "carYear": "Đời xe",
+        "carVersion": "Phiên bản xe",
+        "licensePlate": "Biển số xe",
+        "vinNumber": "Số vin"
+    },
+    "create": "Thêm mới",
+    "find": "Tìm kiếm",
+    "table": {
+        "index": "STT",
+        "code": "Mã phiếu dịch vụ",
+        "customerName": "Tên khách hàng",
+        "date": "Ngày",
+        "totalCash": "Tổng tiền",
+        "status": "Trạng thái"
+    },
+    "status": {
+        "0": "Mới",
+        "1": "Đã tiếp nhận",
+        "2": "Đang chẩn đoán",
+        "3": "Đã gửi báo giá",
+        "4": "Đang xử lý",
+        "5": "Hoàn thành sửa chữa",
+        "6": "Đã hoàn thành",
+        "7": "Gara đã huỷ lịch hẹn",
+        "8": "Khách hàng đã huỷ lịch hẹn"
+    },
+    "form": {
+        "status": "Trạng thái phiếu dịch vụ",
+        "create": "Thêm mới phiếu dịch vụ",
+        "edit": "Chỉnh sửa phiếu dịch vụ",
+        "view": "Chi tiết phiếu dịch vụ",
+        "phone": "SĐT",
+        "customerType": "Nhóm khách hàng",
+        "customerName": "Tên khách hàng",
+        "licensePlate": "Biển số xe",
+        "vinNumber": "Số vin",
+        "journey": "Số km hiện tại",
+        "carBrand": "Hãng xe",
+        "carModel": "Dòng xe",
+        "carYear": "Đời xe",
+        "carVersion": "Phiên bản xe",
+        "requirement": "Khách hàng yêu cầu",
+        "service": {
+            "title": "Danh mục dịch vụ",
+            "name": "Công việc",
+            "quantity": "SL",
+            "price": "Đơn giá",
+            "money": "Thành tiền",
+            "discount": "Chiết khấu",
+            "tax": "Thuế",
+            "total": "Tổng tiền",
+            "assignee": "Người thực hiện",
+            "addServiceRowData": "+ Thêm mới công việc"
+        },
+        "product": {
+            "title": "Danh sách phụ tùng",
+            "name": "Vật tư phụ tùng",
+            "unit": "ĐVT",
+            "quantity": "SL",
+            "price": "Đơn giá",
+            "money": "Thành tiền",
+            "discount": "Chiết khấu",
+            "tax": "Thuế",
+            "total": "Tổng tiền",
+            "addProductRowData": "+ Thêm mới vật tư"
+        },
+        "toast": {
+            "createSuccess": "Tạo mới thành công",
+            "createfailse": "Tạo mới thất bại",
+            "updateSuccess": "Cập nhật thành công",
+            "updateFailse": "Cập nhật thất bại"
+        },
+        "cash": {
+            "totalMoney": "Tổng tiền",
+            "intoMoney": "Thành tiền",
+            "totalTax": "Tổng tiền thuế",
+            "totalDiscount": "Tổng tiền chiết khấu"
+        }
+    },
+    "print": "In phiếu",
+    "action": {
+        "back": "Quay lại",
+        "confirm": "Xác nhận"
+    }
+}

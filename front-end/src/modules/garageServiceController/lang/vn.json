@@ -1,0 +1,38 @@
+{
+	"filterConfig": {
+		"code": "Mã dịch vụ",
+		"name": "Tên dịch vụ"
+	},
+	"find": "Tìm kiếm",
+	"create": "Thêm mới",
+	"table": {
+		"stt": "STT",
+		"garageServiceType": "Loại dịch vụ",
+		"code": "Mã dịch vụ",
+		"name": "Tên dịch vụ",
+		"description": "Mô tả"
+	},
+	"form": {
+		"createServiceTitle": "Thêm mới dịch vụ",
+		"editServiceTitle": "Chỉnh sửa dịch vụ",
+		"garageServiceType": "Loại dịch vụ",
+		"name": "Tên dịch vụ",
+		"code": "Mã dịch vụ",
+		"description": "Mô tả",
+		"requiredFieldError": "* Vui lòng nhập đủ thông tin bắt buộc",
+		"placeholderCode": "Nhập mã dịch vụ",
+		"placeholderName": "Nhập tên dịch vụ"
+	},
+	"toast": {
+		"createSuccess": "Thêm mới thành công",
+		"editSuccess": "Cập nhật thành công"
+	},
+	"error": {
+		"missingRequiredField": "* Vui lòng nhập đủ thông tin bắt buộc",
+		"duplicateCode": "* Mã dịch vụ đã tồn tại, vui lòng nhập lại"
+	},
+	"action": {
+		"create": "Tạo mới",
+		"edit": "Chỉnh sửa"
+	}
+}

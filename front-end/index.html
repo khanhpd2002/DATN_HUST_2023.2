@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="" class="">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="icon" href="/favicon_cd.svg" />
+  <link rel="stylesheet" type="text/css" href="/loader.scss" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="/node_modules/@cd/design-system/dist/styles.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <!-- <link rel="stylesheet" href="/static/fonts/iconsax/css/fontello-embedded.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'"> -->
+
+  <!-- <link ref="preload" href="static/fonts/iconsax/fonts/fontello.woff" as="font" type="font/woff" crossorigin> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <title>Car Doctor</title>
+</head>
+<script>
+  // (function () {
+  //   // Replace with the URL of your CSS style sheet
+  //   const head = document.getElementsByTagName('head')[0]
+  //   const href = '/static/fonts/iconsax/css/fontello-codes.css';
+  //   const fontelloHref = '/static/fonts/iconsax/css/fontello.css'
+
+  //   // Leave the rest of the code as-is
+  //   const link = document.createElement('link');
+  //   const fontelloLink = document.createElement('link');
+  //   const cacheBuster = Math.round(new Date().getTime() / 1000);
+  //   link.setAttribute('href', href + '?cb=' + cacheBuster);
+  //   fontelloLink.setAttribute('href', fontelloHref + '?cb=' + cacheBuster)
+  //   fontelloLink.setAttribute('ref', 'stylesheet')
+  //   link.setAttribute('rel', 'stylesheet');
+  //   head.appendChild(fontelloLink)
+  //   head.appendChild(link);
+  // })();
+  // document.fonts.onloadingdone = () => {
+  //   console.log("load xog rồi nè")
+  //   // document.fonts.check()
+  //   console.log(document.fonts.status)
+  //   const appLoading = document.getElementById("loading-bg");
+  //   if (appLoading) {
+  //     appLoading.style.display = "none";
+  //   }
+  // }
+</script>
+
+<body class="font-Inter">
+  <noscript>
+    <strong>We're sorry but Car Doctor doesn't work
+      properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="loading-bg">
+    <div class="loading-logo text-center">
+      <img src="/favicon_cd.svg" alt="Logo" width="100px" />
+    </div>
+    <div class="loading">
+      <div class="effect-1 effects"></div>
+      <div class="effect-2 effects"></div>
+      <div class="effect-3 effects"></div>
+    </div>
+  </div>
+  <div id="app" class="h-full"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

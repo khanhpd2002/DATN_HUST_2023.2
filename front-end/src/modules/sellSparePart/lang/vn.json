@@ -1,0 +1,82 @@
+{
+	"title": "Bán hàng",
+	"filter": {
+		"customerTypeId": "Nhóm khách hàng",
+		"customerName": "Tên khách hàng",
+		"customerPhone": "Số điện thoại",
+		"title": "Tìm kiếm",
+		"placeholderTitle": "Tìm kiếm mã đơn hàng, tên khách hàng",
+		"status": "Trạng thái"
+	},
+	"table": {
+		"stt": "STT",
+		"sellCode": "Mã đơn hàng",
+		"customerName": "Tên khách hàng",
+		"createdAt": "Ngày",
+		"totalPrice": "Tổng tiền",
+		"deliveryStatus": "Trạng thái vận chuyển",
+		"paymentStatus": "Trạng thái thanh toán",
+		"action": "Thao tác"
+	},
+	"form": {
+		"addTitle": "Thêm mới đơn bán",
+		"editTitle": "Chỉnh sửa đơn bán",
+		"viewTitle": "Chi tiết đơn bán",
+		"customerId": "Khách hàng",
+		"customerPhone": "Số điện thoại",
+		"customerType": "Nhóm khách hàng",
+		"customerName": "Tên khách hàng",
+		"deliveryStatus": "Trạng thái đơn hàng",
+		"paymentStatus": "Trạng thái thanh toán",
+		"totalPrice": "Tổng tiền",
+		"originalPrice": "Thành tiền",
+		"tax": "Tổng tiền thuế",
+		"discount": "Tổng tiền chiết khấu",
+		"cancel": "Hủy đơn",
+		"confirmReturn": "Xác nhận hoàn trả",
+		"returnOrder": "Bạn có chắc muốn hoàn trả đơn hàng này?",
+		"confirmCancel": "Xác nhận hủy đơn hàng",
+		"cancelOrder": "Bạn có chắc muốn hủy đơn hàng này?",
+		"products": {
+			"title": "Bảng kê danh sách phụ tùng",
+			"sparePart": "Vật tư phụ tùng",
+			"unit": "ĐVT",
+			"quantity": "SL",
+			"unitPrice": "Đơn giá",
+			"originalPrice": "Thành tiền",
+			"discount": "Chiết khấu",
+			"tax": "Thuế",
+			"status": "Trạng thái",
+			"price": "Tổng tiền",
+			"addSparePart": "Thêm mới phụ tùng"
+		}
+	},
+	"error": {
+		"missingRequiredField": "* Vui lòng nhập đủ thông tin bắt buộc",
+		"empty": "* Vui lòng nhập Số lượng",
+		"emptyProduct": "* Vui lòng nhập vật tư phụ tùng",
+		"errorProductMessage": "Chiết khấu không được lớn hơn thành tiền"
+	},
+	"toast": {
+		"createSuccess": "Thêm mới đơn bán thành công",
+		"editSuccess": "Chỉnh sửa đơn bán thành công"
+	},
+	"action": {
+		"filter": "Tìm kiếm",
+		"add": "Thêm mới đơn bán",
+		"save": "Lưu",
+		"back": "Quay lại",
+		"cancel": "Huỷ bỏ",
+		"addSparePart": "+ Thêm mới phụ tùng",
+		"create": "Tạo mới"
+	},
+	"deliveryStatus": {
+		"1": "Đã nhận đơn hàng",
+		"2": "Đang xử lý",
+		"3": "Đang vận chuyển",
+		"4": "Đã nhận hàng",
+		"5": "Đã hoàn trả",
+		"6": "Đã huỷ",
+		"7": "Đã hoàn thành"
+	}
+}

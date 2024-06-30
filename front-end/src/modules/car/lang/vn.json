@@ -1,0 +1,73 @@
+{
+	"title": "Danh sách xe",
+	"titleDetail": "Thông tin chi tiết xe",
+	"titleEdit": "Chỉnh sửa thông tin xe",
+	"titleHistory": "Lịch sử sửa chữa và bảo dưỡng",
+	"id": "ID",
+	"stt": "STT",
+	"customerTypeName": "Nhóm khách hàng",
+	"customerName": "Tên khách hàng",
+	"customerPhone": "Số điện thoại",
+	"customer": "Khách hàng",
+	"car": "Phiên bản xe",
+	"filter": "Tìm kiếm xe",
+	"licensePlate": "Biển số xe",
+	"vinNumber": "Mã số vin",
+	"carName": "Loại xe khác",
+	"carBrand": "Hãng xe",
+	"carModel": "Dòng xe",
+	"carYear": "Đời xe",
+	"carVersion": "Phiên bản xe",
+	"action": {
+		"action": "Hành động",
+		"search": "Tìm kiếm",
+		"view": "Chi tiết",
+		"add": "Thêm mới xe",
+		"edit": "Chỉnh sửa",
+		"delete": "Xoá",
+		"save": "Tạo mới",
+		"back": "Quay lại",
+		"cancel": "Quay lại",
+		"uploadExcel": "Tải lên File Excel"
+	},
+	"create": "Thêm mới thông tin xe",
+	"edit": "Chỉnh sửa thông tin xe",
+	"view": "Chi tiết thông tin xe",
+	"success": {
+		"create": "Thêm mới thành công",
+		"edit": "Cập nhật thành công"
+	},
+	"failed": {
+		"create": "Thêm mới thất bại",
+		"edit": "Cập nhật thất bại"
+	},
+	"placeholder": {
+		"filter": "Tìm kiếm biển kiểm soát, mã số vin, tên khách hàng, số điện thoại",
+		"customerTypeName": "Nhóm khách hàng",
+		"customerName": "Tên khách hàng",
+		"customerPhone": "Số điện thoại khách hàng",
+		"customer": "Khách hàng",
+		"licensePlate": "Biển kiểm soát",
+		"vinNumber": "Mã số vin",
+		"carName": "Tên xe",
+		"carBrand": "Hãng xe",
+		"carModel": "Dòng xe",
+		"carYear": "Nhập Đời xe",
+		"carVersion": "Phiên bản xe"
+	},
+	"detail": {
+		"customerName": "Tên khách hàng",
+		"appointmentDate": "Ngày",
+		"products": "Phụ tùng",
+		"services": "Dịch vụ",
+		"totalPrice": "Tổng tiền"
+	},
+	"errorMessages": {
+		"phone": "Số điện thoại không hợp lệ!"
+	},
+	"error": {
+		"missingRequiredField": "* Vui lòng nhập đủ thông tin bắt buộc",
+		"duplicateLicensePlate": "* Biển kiểm soát đã tồn tại",
+		"duplicateVinNumber": "* Mã số vin đã tồn tại"
+	}
+}

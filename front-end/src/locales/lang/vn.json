@@ -1,0 +1,29 @@
+{
+  "common": {
+    "appName": "GMS Quản trị nội bộ",
+    "filterColumn": "Chọn cột",
+    "filterValue": "Giá trị lọc",
+    "filter": "Lọc",
+    "cancel": "Thoát",
+    "include": "Bao gồm",
+    "home": "garage",
+    "garageInfo": "Thông tin garage"
+  },
+  "tableBase": {
+    "viewDetail": "Xem chi tiết",
+    "hideOrOpenColumn": "Ẩn/hiện cột",
+    "accept": "Duyệt",
+    "reject": "Từ chối",
+    "update": "Cập nhật",
+    "processWith": "Thực thi với ",
+    "selectedInstance": " đối tượng đã chọn",
+    "record": "record"
+  },
+  "statusCell": {
+    "status": {
+      "1": "Accepted",
+      "2": "Rejected",
+      "3": "Pending"
+    }
+  }
+}

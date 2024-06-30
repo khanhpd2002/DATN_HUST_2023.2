@@ -1,0 +1,47 @@
+{
+	"title": "Thông tin tài khoản",
+	"changeAvatar": "Thay đổi ảnh đại diện",
+	"changePassword": "Thay đổi mật khẩu",
+	"saveChange": "Lưu thay đổi",
+	"save": "Đổi mật khẩu",
+	"cancel": "Hủy",
+	"infor": "THÔNG TIN",
+	"contact": "LIÊN HỆ",
+	"accountInfo": "THÔNG TIN THANH TOÁN",
+	"form": {
+		"title": "Đổi mật khẩu",
+		"oldPassword": "Mật khẩu cũ",
+		"newPassword": "Mật khẩu mới",
+		"confirmPassword": "Nhập lại mật khẩu mới",
+		"placeholderOldPass": "Nhập mật khẩu cũ",
+		"placeholderNewPass": "Nhập mật khẩu mới",
+		"titleInfo": "Chi tiết tài khoản",
+		"editTitle": "Chỉnh sửa tài khoản",
+		"userName": "Tên hiển thị",
+		"name": "Họ và tên",
+		"garageName": "Tên Garage",
+		"phone": "Số điện thoại",
+		"email": "Email",
+		"address": "Địa chỉ",
+		"role": "Vai trò",
+		"taxCode": "MST",
+		"status": "Trạng thái",
+		"ownerAccount": "Chủ tài khoản",
+		"accountNumber": "Số tài khoản",
+		"bank": "Ngân hàng",
+		"phoneNumber": "SĐT",
+		"addContact": "Thêm người liên hệ",
+		"addAccount": "Thêm tài khoản"
+	},
+	"action": {
+		"edit": "Chỉnh sửa",
+		"cancel": "Huỷ"
+	},
+	"toast": {
+		"success": "Cập nhật thông tin tài khoản thành công",
+		"fail": "Cật nhật thông tin tài khoản thất bại"
+	},
+	"error": {
+		"phoneNumber": "Vui lòng nhập lại đúng định dạng số điện thoại"
+	}
+}

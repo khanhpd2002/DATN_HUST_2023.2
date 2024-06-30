@@ -1,0 +1,179 @@
+{
+	"sparePartsInventory": {
+		"filterConfig": {
+			"productType": "Loại phụ tùng",
+			"code": "Mã phụ tùng",
+			"productName": "Tên phụ tùng"
+		},
+		"form": {
+			"productType": "Loại phụ tùng",
+			"code": "Mã phụ tùng",
+			"productName": "Tên phụ tùng",
+			"quantity": "Số lượng"
+		},
+		"table": {
+			"index": "STT",
+			"code": "Mã phụ tùng",
+			"productName": "Tên phụ tùng",
+			"unit": "ĐVT",
+			"sparePartType": "Loại phụ tùng",
+			"quantity": "Số lượng tồn"
+		},
+		"exportExcel": "Tải xuống File Excel",
+		"find": "Tìm kiếm",
+		"sparePartTypeOptions": {
+			"1": "Thiết bị bảo dưỡng sửa chữa",
+			"2": "Máy - Gầm",
+			"3": "Điện",
+			"4": "Điện lạnh",
+			"5": "Thân vỏ",
+			"6": "Nội ngoại thất"
+		},
+		"action": {
+			"back": "Huỷ",
+			"save": "Lưu"
+		},
+		"updateForm": {
+			"code": "Mã phụ tùng",
+			"productName": "Tên phụ tùng",
+			"quantity": "Số lượng",
+			"toast": {
+				"updateSuccess": "Cập nhật thành công",
+				"updateFailse": "Cập nhật thất bại"
+			}
+		}
+	},
+	"inventoryHistory": {
+		"filterConfig": {
+			"time": "Thời gian",
+			"from": "Từ ngày",
+			"to": "Đến ngày"
+		},
+		"filter": "Tìm kiếm",
+		"create": "Thêm mới",
+		"table": {
+			"index": "STT",
+			"countDate": "Ngày kiểm kê",
+			"counterName": "Người kiểm kê",
+			"approverName": "Người phê duyệt",
+			"deviationRate": "Tỉ lệ sai lệch",
+			"action": "Thao tác"
+		},
+		"form": {
+			"detail": "Chi tiết kiểm kê",
+			"addEmployee": "Thêm mới người kiểm kê",
+			"employee": "Người kiểm kê",
+			"approverName": "Người phê duyệt",
+			"change": "Điều chỉnh kiểm kê ",
+			"title": {
+				"add": "Thêm mới kiểm kê",
+				"edit": "Phiếu điều chỉnh kiểm kê",
+				"view": "Chi tiết kiểm kê"
+			},
+			"date": "Ngày thực hiện",
+			"back": "Quay lại",
+			"save": "Lưu",
+			"confirm": "Xác nhận",
+			"edit": "Cập nhật",
+			"productList": "Bảng kê danh sách phụ tùng",
+			"uploadFromExcel": "Tải lên từ excel",
+
+			"printBill": "In phiếu kiểm kê",
+			"inventoryProductColumn": {
+				"bySystem": "Hệ thống",
+				"byReality": "Thực tế",
+				"difference": "Chênh lệch",
+				"productId": "Vật tư phụ tùng",
+				"unit": "ĐVT",
+				"unitPrice": "Đơn giá",
+				"systemInventory": "Số lượng",
+				"priceBySystemInventory": "Thành tiền",
+				"realityInventory": "Số lượng",
+				"priceByRealityInventory": "Thành tiền",
+				"differenceInventory": "Số lượng",
+				"priceByDifferenceInventory": "Thành tiền"
+			},
+			"addProduct": "+ Thêm mới vật tư",
+			"toast": {
+				"createSuccess": "Tạo mới lịch sử kiểm kê thành công",
+				"createFail": "Tạo mới lịch sử kiểm kê thất bại",
+				"updateSuccess": "Cập nhật lịch sử kiểm kê thành công",
+				"updateFail": "Cập nhật lịch sử kiểm kê thất bại"
+			}
+		}
+	},
+	"order": {
+		"filter": {
+			"orderCode": "Mã đơn hàng",
+			"distributorCode": "Mã NPP",
+			"distributorName": "Tên NPP",
+			"deliveryStatus": "Trạng thái đơn hàng",
+			"time": "Thời gian",
+			"fromDate": "Từ",
+			"toDate": "Đến"
+		},
+		"find": "Tìm kiếm",
+		"create": "Thêm mới",
+		"uploadFromExcel": "Tải lên File Excel",
+		"table": {
+			"index": "STT",
+			"orderCode": "Mã đơn hàng",
+			"distributorName": "Nhà phân phối",
+			"createdAt": "Ngày",
+			"totalPrice": "Tổng tiền",
+			"status": "Trạng thái đơn hàng",
+			"handle": "Xử lý",
+			"action": "Thao tác"
+		},
+		"deliveryStatus": {
+			"1": "Đã đặt hàng",
+			"2": "Đang xử lý",
+			"3": "Đang vận chuyển",
+			"4": "Đã nhận hàng",
+			"5": "Đã hoàn trả",
+			"6": "Đã huỷ"
+		},
+		"form": {
+			"create": "Thêm mới đơn hàng đặt",
+			"edit": "Chỉnh sửa danh sách đơn hàng đặt",
+			"view": "Chi tiết đơn đặt hàng",
+			"distributorCode": "Mã NPP",
+			"distributorName": "Tên NPP",
+			"contactPhone": "SĐT",
+			"deliveryType": "Phương thức giao hàng",
+			"deliveryStatus": "Trạng thái đơn hàng",
+			"productList": "Bảng kê danh sách phụ tùng",
+			"printBill": "In Phiếu",
+			"confirmReturn": "Xác nhận hoàn trả",
+			"returnOrder": "Bạn có chắc muốn hoàn trả đơn hàng này?",
+			"confirmCancel": "Xác nhận hủy đơn hàng",
+			"cancelOrder": "Bạn có chắc muốn hủy đơn hàng này?",
+			"table": {
+				"index": "STT",
+				"productId": "Vật tư phụ tùng",
+				"unit": "ĐVT",
+				"quantity": "SL",
+				"unitPrice": "Đơn giá",
+				"totalPrice": "Thành tiền",
+				"discount": "Chiết khấu",
+				"tax": "Thuế",
+				"price": "Tổng tiền",
+				"status": "Trạng thái"
+			},
+			"addProduct": "+ Thêm mới phụ tùng"
+		},
+		"toast": {
+			"createOrderSuccess": "Thêm mới Đơn hàng đặt thành công",
+			"createOrderFailse": "Thêm mới Đơn hàng đặt thất bại",
+			"updateOrderSuccess": "Cập nhật Đơn hàng đặt thành công",
+			"updateOrderFailse": "Cập nhật Đơn hàng đặt thất bại",
+			"statusChange": "Cập nhật Đơn hàng đặt thành công"
+		},
+		"save": "Lưu",
+		"error": {
+			"emptyProduct": "* Vui lòng chọn vật tư phụ tùng",
+			"emptyProductQuality": "* Vui lòng nhập số lượng",
+			"errorProductMessage": "Chiết khấu không được lớn hơn thành tiền"
+		}
+	}
+}

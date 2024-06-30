@@ -1,0 +1,65 @@
+{
+	"title": "Phiếu nhập kho",
+	"filter": {
+		"date": "Ngày",
+		"type": "Loại phiếu",
+		"code": "Số phiếu",
+		"status": "Trạng thái"
+	},
+	"table": {
+		"stt": "STT",
+		"createdAt": "Ngày",
+		"code": "Số phiếu",
+		"type": "Lý do",
+		"status": "Trạng thái"
+	},
+	"form": {
+		"addTitle": "Thêm mới phiếu nhập kho",
+		"editTitle": "Chi tiết phiếu nhập kho",
+		"type": "Loại hình nhập kho",
+		"distributor": "Nhà phân phối",
+		"createdAt": "Ngày tạo phiếu",
+		"code": "Số phiếu mua hàng",
+		"status": "Trạng thái phiếu",
+		"table": {
+			"title": "Bảng kê danh sách phụ tùng",
+			"stt": "STT",
+			"code": "Mã phụ tùng",
+			"productId": "Tên phụ tùng",
+			"unit": "ĐVT",
+			"requestQuantity": "Số lượng yêu cầu",
+			"exportQuantity": "Số lượng thực nhập",
+			"note": "Ghi chú",
+			"addProductRowData": "+ Thêm mới vật tư"
+		}
+	},
+	"action": {
+		"filter": "Tìm kiếm",
+		"add": "Tạo phiếu nhập kho",
+		"save": "Lưu",
+		"back": "Quay lại",
+		"cancel": "Huỷ bỏ",
+		"confirm": "Xác nhận",
+		"printTicket": "In phiếu nhập kho",
+		"addSparePart": "+ Thêm mới vật tư"
+	},
+	"type": {
+		"1": "Mua hàng NPP",
+		"2": "Khách hàng đổi trả từ Phiếu dịch vụ",
+		"3": "Khách hàng hoàn hàng từ Đơn bán"
+	},
+	"status": {
+		"0": "Đã hủy",
+		"1": "Đã xác nhận",
+		"2": "Chưa xác nhận"
+	},
+	"error": {
+		"missingRequiredField": "* Vui lòng nhập đủ thông tin bắt buộc",
+		"notEmpty": "* Vui lòng thêm mới vật tư",
+		"requiredProduct": "* Vui lòng nhập thông tin vật tư"
+	},
+	"toast": {
+		"createSuccess": "Thêm mới phiếu nhập kho thành công",
+		"editSuccess": "Xác nhận nhập kho thành công"
+	}
+}

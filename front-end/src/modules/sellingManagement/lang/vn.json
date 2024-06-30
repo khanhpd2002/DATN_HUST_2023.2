@@ -1,0 +1,199 @@
+{
+    "customer-type": {
+        "tableName": "Danh sách nhóm khách hàng",
+        "columnTable": {
+            "order": "STT",
+            "customerTypeName": "Nhóm khách hàng",
+            "description": "Mô tả",
+            "action": "Hành động"
+        },
+        "action": {
+            "search": "Tìm kiếm",
+            "add": "Thêm mới",
+            "edit": "Sửa",
+            "view": "Xem",
+            "delete": "Xóa"
+        },
+        "modal": {
+            "title": "Thêm mới xe",
+            "addNewTitle": "Thêm mới xe",
+            "editTitle": "Sửa thông tin xe",
+            "viewTitle": "Xem thông tin xe",
+            "fullName": "Họ và tên",
+            "phoneNumber": "Số điện thoại",
+            "garageId": "ID Garage",
+            "driverId": "ID Lái xe",
+            "cars": "Xe",
+            "carName": "Tên xe",
+            "carBrand": "Hãng xe",
+            "carModel": "Model",
+            "carYear": "Năm sản xuất",
+            "carEngine": "Động cơ",
+            "licensePlate": "Biển số xe",
+            "vinNumber": "Mã số Vin",
+            "add": "Thêm mới",
+            "cancel": "Hủy",
+            "save": "Lưu",
+            "description": "Mô tả",
+            "placeholder": {
+                "fullName": "Nhập họ và tên",
+                "phoneNumber": "Nhập số điện thoại",
+                "garageId": "Nhập ID Garage",
+                "driverId": "Nhập ID Lái xe",
+                "cars": "Nhập danh sách xe",
+                "carName": "Nhập tên xe",
+                "carBrand": "Chọn hãng xe",
+                "carModel": "Chọn model",
+                "carYear": "Chọn năm sản xuất",
+                "carEngine": "Chọn động cơ",
+                "vinNumber": "Nhập mã số Vin",
+                "licensePlate": "Nhập biển số xe",
+                "description": "Nhập mô tả"
+            }
+        },
+        "toast": {
+            "addSuccess": "Thêm nhóm khách hàng thành công",
+            "addFail": "Thêm mới thất bại",
+            "editSuccess": "Lưu thông tin thành công",
+            "editFail": "Lưu thông tin thất bại",
+            "deleteSuccess": "Xóa thành công",
+            "deleteFail": "Xóa thất bại"
+        }
+    },
+    "customer": {
+        "tableName": "Danh sách khách hàng",
+        "typeTableName": "Danh sách nhóm khách hàng",
+        "columnTable": {
+            "order": "STT",
+            "id": "ID",
+            "customerTypeName": "Nhóm khách hàng",
+            "fullName": "Tên khách hàng",
+            "phoneNumber": "Số điện thoại",
+            "garageId": "ID Garage",
+            "driverId": "ID Lái xe",
+            "name": "Danh sách khách hàng",
+            "cars": "Xe",
+            "vinNumber": "Mã số Vin",
+            "licensePlate": "Biển số xe",
+            "customerTypeDescription": "Mô tả",
+            "action": "Hành động"
+        },
+        "action": {
+            "addNew": "Thêm mới",
+            "edit": "Sửa",
+            "view": "Xem",
+            "delete": "Xóa"
+        },
+        "modal": {
+            "title": "Thêm mới khách hàng",
+            "addNewTitle": "Thêm mới khách hàng",
+            "editTitle": "Sửa thông tin khách hàng",
+            "viewTitle": "Xem thông tin khách hàng",
+            "addNewTypeTitle": "Thêm mới nhóm khách hàng",
+            "editTypeTitle": "Sửa thông tin nhóm khách hàng",
+            "viewTypeTitle": "Xem thông tin nhóm khách hàng",
+            "typeTitle": "Thêm mới nhóm khách hàng",
+            "customerType": "Nhóm khách hàng",
+            "fullName": "Tên khách hàng",
+            "phoneNumber": "Số điện thoại",
+            "garageId": "ID Garage",
+            "driverId": "ID Lái xe",
+            "vinNumber": "Mã số Vin",
+            "licensePlate": "Biển số xe",
+            "add": "Thêm mới",
+            "cancel": "Hủy",
+            "save": "Lưu",
+            "customerTypeName": "Tên nhóm khách hàng",
+            "description": "Mô tả",
+            "cars": "Chọn danh sách xe",
+            "placeholder": {
+                "customerType": "Chọn nhóm khách hàng",
+                "fullName": "Nhập tên khách hàng",
+                "phoneNumber": "Nhập số điện thoại",
+                "garageId": "Nhập ID Garage",
+                "driverId": "Nhập ID Lái xe",
+                "vinNumber": "Nhập mã số Vin",
+                "licensePlate": "Nhập biển số xe",
+                "customerTypeName": "Nhập tên loại khách hàng",
+                "description": "Nhập mô tả",
+                "cars": "Chọn danh sách xe"
+            }
+        },
+        "toast": {
+            "addCustomerSuccess": "Thêm khách hàng thành công",
+            "addTypeSuccess": "Thêm nhóm thành công",
+            "addFail": "Thêm mới thất bại",
+            "editCustomerSuccess": "Lưu thông tin thành công",
+            "editTypeSuccess": "Lưu thông tin thành công",
+            "editFail": "Lưu thông tin thất bại",
+            "deleteSuccess": "Xóa thành công",
+            "deleteFail": "Xóa thất bại"
+        }
+    },
+    "car": {
+        "tableName": "Danh sách xe",
+        "columnTable": {
+            "order": "STT",
+            "id": "ID",
+            "carName": "Tên xe",
+            "carBrand": "Hãng xe",
+            "carModel": "Model",
+            "carYear": "Năm sản xuất",
+            "carEngine": "Động cơ",
+            "licensePlate": "Biển số xe",
+            "vinNumber": "Mã số Vin",
+            "action": "Hành động"
+        },
+        "action": {
+            "addNew": "Thêm mới",
+            "edit": "Sửa",
+            "view": "Xem",
+            "delete": "Xóa"
+        },
+        "modal": {
+            "title": "Thêm mới xe",
+            "addNewTitle": "Thêm mới xe",
+            "editTitle": "Sửa thông tin xe",
+            "viewTitle": "Xem thông tin xe",
+            "fullName": "Họ và tên",
+            "phoneNumber": "Số điện thoại",
+            "garageId": "ID Garage",
+            "driverId": "ID Lái xe",
+            "cars": "Xe",
+            "carName": "Tên xe",
+            "carBrand": "Hãng xe",
+            "carModel": "Model",
+            "carYear": "Năm sản xuất",
+            "carEngine": "Động cơ",
+            "licensePlate": "Biển số xe",
+            "vinNumber": "Mã số Vin",
+            "add": "Thêm mới",
+            "cancel": "Hủy",
+            "save": "Lưu",
+            "description": "Mô tả",
+            "placeholder": {
+                "fullName": "Nhập họ và tên",
+                "phoneNumber": "Nhập số điện thoại",
+                "garageId": "Nhập ID Garage",
+                "driverId": "Nhập ID Lái xe",
+                "cars": "Nhập danh sách xe",
+                "carName": "Nhập tên xe",
+                "carBrand": "Chọn hãng xe",
+                "carModel": "Chọn model",
+                "carYear": "Chọn năm sản xuất",
+                "carEngine": "Chọn động cơ",
+                "vinNumber": "Nhập mã số Vin",
+                "licensePlate": "Nhập biển số xe",
+                "description": "Nhập mô tả"
+            }
+        },
+        "toast": {
+            "addSuccess": "Thêm xe thành công",
+            "addFail": "Thêm mới thất bại",
+            "editSuccess": "Lưu thông tin thành công",
+            "editFail": "Lưu thông tin thất bại",
+            "deleteSuccess": "Xóa thành công",
+            "deleteFail": "Xóa thất bại"
+        }
+    }
+}

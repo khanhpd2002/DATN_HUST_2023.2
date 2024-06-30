@@ -1,0 +1,63 @@
+{
+	"title": "Phiếu xuất kho",
+	"filter": {
+		"date": "Ngày",
+		"type": "Loại phiếu",
+		"code": "Số phiếu",
+		"status": "Trạng thái",
+		"title": "Tìm kiếm",
+		"placeholderTitle": "Tìm kiếm mã đơn hàng, tên khách hàng"
+	},
+	"table": {
+		"stt": "STT",
+		"createdAt": "Ngày",
+		"code": "Số phiếu",
+		"type": "Lý do",
+		"status": "Trạng thái"
+	},
+	"form": {
+		"addTitle": "Thêm mới phiếu xuất kho",
+		"editTitle": "Chi tiết phiếu xuất kho",
+		"type": "Loại hình xuất kho",
+		"createdAt": "Ngày tạo phiếu bán hàng/ dịch vụ",
+		"code": "Số phiếu bán hàng/ dịch vụ",
+		"status": "Trạng thái phiếu",
+		"table": {
+			"title": "Bảng kê danh sách phụ tùng",
+			"stt": "STT",
+			"code": "Mã phụ tùng",
+			"productId": "Tên phụ tùng",
+			"unit": "ĐVT",
+			"requestQuantity": "Số lượng yêu cầu",
+			"exportQuantity": "Số lượng  thực xuất",
+			"note": "Ghi chú"
+		}
+	},
+	"action": {
+		"filter": "Tìm kiếm",
+		"add": "Tạo phiếu xuất kho",
+		"save": "Lưu",
+		"back": "Quay lại",
+		"cancel": "Huỷ bỏ",
+		"confirm": "Xác nhận",
+		"printTicket": "In phiếu xuất kho",
+		"addSparePart": "+ Thêm mới vật tư"
+	},
+	"type": {
+		"1": "Trả hàng NPP",
+		"2": "Cung cấp dịch vụ",
+		"3": "Bán hàng"
+	},
+	"status": {
+		"0": "Đã huỷ",
+		"1": "Đã xác nhận",
+		"2": "Chưa xác nhận"
+	},
+	"error": {
+		"missingRequiredField": "* Vui lòng nhập đủ thông tin bắt buộc"
+	},
+	"toast": {
+		"createSuccess": "Thêm mới phiếu xuất kho thành công",
+		"editSuccess": "Xác nhận xuất kho thành công"
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"title": "Danh sách khách hàng",
+	"titleEdit": "Cập nhật thông tin khách hàng",
+	"titleInfo": "Chi tiết thông tin khách hàng",
+	"id": "ID",
+	"stt": "STT",
+	"customerName": "Tên khách hàng",
+	"customerTypeName": "Nhóm khách hàng",
+	"phoneNumber": "Số điện thoại",
+	"address": "Địa chỉ",
+	"listCar": "Danh sách xe",
+	"action": {
+		"action": "Hành động",
+		"search": "Tìm kiếm",
+		"view": "Chi tiết",
+		"add": "Thêm mới",
+		"edit": "Chỉnh sửa",
+		"delete": "Xoá",
+		"save": "Tạo mới",
+		"cancel": "Quay lại",
+		"back": "Quay lại",
+		"uploadExcel": "Tải lên File Excel",
+		"addCar": "Thêm mới"
+	},
+	"create": "Thêm mới khách hàng",
+	"edit": "Chỉnh sửa khách hàng",
+	"view": "Chi tiết khách hàng",
+	"success": {
+		"create": "Thêm mới thành công",
+		"edit": "Cập nhật thành công"
+	},
+	"failed": {
+		"create": "Thêm mới thất bại",
+		"edit": "Cập nhật thất bại"
+	},
+	"placeholder": {
+		"customerName": "Tên khách hàng",
+		"customerTypeName": "Nhóm khách hàng",
+		"phoneNumber": "Số điện thoại",
+		"address": "Địa chỉ"
+	},
+	"detail": {
+		"stt": "STT",
+		"carBrandName": "Hãng xe",
+		"carModelName": "Dòng xe",
+		"carYearName": "Đời xe",
+		"carVersionName": "Phiên bản xe",
+		"licensePlate": "Biển kiểm soát",
+		"vinNumber": "Mã vin"
+	},
+	"error": {
+		"missingRequiredField": "Vui lòng nhập đủ thông tin bắt buộc",
+		"duplicatePhoneNumber": "* Số điện thoại đã tồn tại",
+		"phoneNumber": "* Vui lòng nhập đúng định dạng số điện thoại"
+	}
+}

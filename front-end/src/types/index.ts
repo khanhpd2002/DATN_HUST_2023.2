@@ -1,0 +1,16 @@
+export { IQuery } from "./Query";
+export { IEmployee } from "./Employee";
+export { IDistributor } from "./Distributor";
+export { IResponse } from "./Response";
+export { ISelectOption } from "./SelectOption";
+export { IAddress } from "./Address";
+export { ICustomerType } from "./CustomerType";
+export { ICar } from "./Car";
+export { ICustomer } from "./Customer";
+export { ICarInfo } from "./CarInfo";
+export { ICarRepairHistory } from "./CarRepairHistory";
+export { IAccessary } from "./Accessary";
+export { IAccessaryInfo } from "./AccessaryInfo";
+export { IAccessaryRepairHistory } from "./AccessaryRepairHistory";
+export { IConfigPrice } from "./ConfigPrice";
+export { IQuotationLabours } from "./QuotationLabours";

@@ -1,0 +1,96 @@
+{
+	"title": "Danh sách phụ tùng",
+	"titleView": "Chi tiết phụ tùng",
+	"titleEdit": "Chỉnh sửa phụ tùng",
+	"titleCreate": "Thêm mới phụ tùng",
+	"name": "Tên phụ tùng",
+	"code": "Mã phụ tùng",
+	"placeholderCode": "Nhập mã phụ tùng",
+	"placeholderName": "Nhập tên phụ tùng",
+	"placeholderPrice": "Nhập giá mua",
+	"placeholderPartType": "Nhập loại phụ tùng",
+	"placeholderUnit": "Nhập đơn vị tính",
+	"distributorCode": "Mã NPP",
+	"distributorName": "Tên NPP",
+	"purchasePrice": "Giá mua",
+	"stt": "STT",
+	"unit": "Đơn vị tính",
+	"sparePartType": "Loại phụ tùng",
+	"carBrand": "Hãng xe",
+	"carModel": "Dòng xe",
+	"carYear": "Đời xe",
+	"carVersion": "Phiên bản xe",
+	"index": "STT",
+	"action": {
+		"action": "Hành động",
+		"search": "Tìm kiếm",
+		"view": "Chi tiết",
+		"add": "Thêm mới",
+		"edit": "Chỉnh sửa",
+		"delete": "Xoá",
+		"save": "Tạo mới",
+		"back": "Quay lại",
+		"uploadExcel": "Tải lên File Excel"
+	},
+	"success": {
+		"create": "Thêm mới thành công",
+		"edit": "Cập nhật thành công"
+	},
+	"failed": {
+		"create": "Thêm mới thất bại",
+		"edit": "Cập nhật thất bại"
+	},
+	"placeholder": {
+		"distributorCode": "Mã NPP",
+		"distributorName": "Tên NPP",
+		"name": "Tên phụ tùng",
+		"code": "Mã phụ tùng",
+		"type": "Loại phụ tùng",
+		"purchasePrice": "Giá mua",
+		"sparePartType": "Loại phụ tùng",
+		"unit": "Đơn vị tính",
+		"customerTypeName": "Nhóm khách hàng",
+		"customerName": "Tên khách hàng",
+		"customerPhone": "Số điện thoại khách hàng",
+		"customer": "Khách hàng",
+		"licensePlate": "Biển số xe",
+		"vinNumber": "Số vin",
+		"carName": "Tên xe",
+		"carBrand": "Chọn hãng xe",
+		"carModel": "Chọn dòng xe",
+		"carYear": "Chọn đời xe",
+		"carVersion": "Chọn phiên bản xe"
+	},
+	"detail": {
+		"customerName": "Tên khách hàng",
+		"appointmentDate": "Ngày",
+		"typeService": "Loại dịch vụ",
+		"totalPrice": "Tổng tiền"
+	},
+	"errorMessages": {
+		"phone": "Số điện thoại không hợp lệ!"
+	},
+	"form": {
+		"addCarCompatible": "Thêm dòng xe tương thích",
+		"title": "Dòng xe tương thích",
+		"carCompatibleColumn": {
+			"carBrandId": "Hãng xe",
+			"carModelId": "Dòng xe",
+			"carYearId": "Đời xe",
+			"carVersionId": "Phiên bản xe"
+		}
+	},
+	"sparePartTypeOptions": {
+		"1": "Thiết bị bảo dưỡng sửa chữa",
+		"2": "Máy - Gầm",
+		"3": "Điện",
+		"4": "Điện lạnh",
+		"5": "Thân vỏ",
+		"6": "Nội ngoại thất"
+	},
+	"error": {
+		"missingRequiredField": "* Vui lòng nhập đủ các trường thông tin bắt buộc",
+		"duplicateCode": "* Đã tồn tại mã phụ tùng ứng với nhà cung cấp",
+		"carModeError": "* Vui lòng chọn dòng xe"
+	}
+}
